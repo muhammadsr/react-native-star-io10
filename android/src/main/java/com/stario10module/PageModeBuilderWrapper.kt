@@ -33,7 +33,7 @@ class PageModeBuilderWrapper internal constructor(context: ReactApplicationConte
             promise.resolve(0)
         }
         else {
-            promise.reject(ReactNoCrashSoftException("Not found native instance"))
+            promise.reject(Exception("Not found native instance"))
         }
     }
 
@@ -46,7 +46,7 @@ class PageModeBuilderWrapper internal constructor(context: ReactApplicationConte
             promise.resolve(0)
         }
         else {
-            promise.reject(ReactNoCrashSoftException("Not found native instance"))
+            promise.reject(Exception("Not found native instance"))
         }
     }
 
@@ -59,7 +59,7 @@ class PageModeBuilderWrapper internal constructor(context: ReactApplicationConte
             promise.resolve(0)
         }
         else {
-            promise.reject(ReactNoCrashSoftException("Not found native instance"))
+            promise.reject(Exception("Not found native instance"))
         }
     }
 
@@ -72,7 +72,7 @@ class PageModeBuilderWrapper internal constructor(context: ReactApplicationConte
             promise.resolve(0)
         }
         else {
-            promise.reject(ReactNoCrashSoftException("Not found native instance"))
+            promise.reject(Exception("Not found native instance"))
         }
     }
 
@@ -85,7 +85,7 @@ class PageModeBuilderWrapper internal constructor(context: ReactApplicationConte
             promise.resolve(0)
         }
         else {
-            promise.reject(ReactNoCrashSoftException("Not found native instance"))
+            promise.reject(Exception("Not found native instance"))
         }
     }
 
@@ -98,7 +98,7 @@ class PageModeBuilderWrapper internal constructor(context: ReactApplicationConte
             promise.resolve(0)
         }
         else {
-            promise.reject(ReactNoCrashSoftException("Not found native instance"))
+            promise.reject(Exception("Not found native instance"))
         }
     }
 
@@ -111,7 +111,7 @@ class PageModeBuilderWrapper internal constructor(context: ReactApplicationConte
             promise.resolve(0)
         }
         else {
-            promise.reject(ReactNoCrashSoftException("Not found native instance"))
+            promise.reject(Exception("Not found native instance"))
         }
     }
 
@@ -124,7 +124,7 @@ class PageModeBuilderWrapper internal constructor(context: ReactApplicationConte
             promise.resolve(0)
         }
         else {
-            promise.reject(ReactNoCrashSoftException("Not found native instance"))
+            promise.reject(Exception("Not found native instance"))
         }
     }
 
@@ -137,7 +137,7 @@ class PageModeBuilderWrapper internal constructor(context: ReactApplicationConte
             promise.resolve(0)
         }
         else {
-            promise.reject(ReactNoCrashSoftException("Not found native instance"))
+            promise.reject(Exception("Not found native instance"))
         }
     }
 
@@ -150,7 +150,7 @@ class PageModeBuilderWrapper internal constructor(context: ReactApplicationConte
             promise.resolve(0)
         }
         else {
-            promise.reject(ReactNoCrashSoftException("Not found native instance"))
+            promise.reject(Exception("Not found native instance"))
         }
     }
 
@@ -163,7 +163,7 @@ class PageModeBuilderWrapper internal constructor(context: ReactApplicationConte
             promise.resolve(0)
         }
         else {
-            promise.reject(ReactNoCrashSoftException("Not found native instance"))
+            promise.reject(Exception("Not found native instance"))
         }
     }
 
@@ -176,7 +176,7 @@ class PageModeBuilderWrapper internal constructor(context: ReactApplicationConte
             promise.resolve(0)
         }
         else {
-            promise.reject(ReactNoCrashSoftException("Not found native instance"))
+            promise.reject(Exception("Not found native instance"))
         }
     }
 
@@ -189,7 +189,7 @@ class PageModeBuilderWrapper internal constructor(context: ReactApplicationConte
             promise.resolve(0)
         }
         else {
-            promise.reject(ReactNoCrashSoftException("Not found native instance"))
+            promise.reject(Exception("Not found native instance"))
         }
     }
 
@@ -202,7 +202,7 @@ class PageModeBuilderWrapper internal constructor(context: ReactApplicationConte
             promise.resolve(0)
         }
         else {
-            promise.reject(ReactNoCrashSoftException("Not found native instance"))
+            promise.reject(Exception("Not found native instance"))
         }
     }
 
@@ -221,7 +221,7 @@ class PageModeBuilderWrapper internal constructor(context: ReactApplicationConte
             promise.resolve(0)
         }
         else {
-            promise.reject(ReactNoCrashSoftException("Not found native instance"))
+            promise.reject(Exception("Not found native instance"))
         }
     }
 
@@ -234,7 +234,7 @@ class PageModeBuilderWrapper internal constructor(context: ReactApplicationConte
             promise.resolve(0)
         }
         else {
-            promise.reject(ReactNoCrashSoftException("Not found native instance"))
+            promise.reject(Exception("Not found native instance"))
         }
     }
 
@@ -249,7 +249,7 @@ class PageModeBuilderWrapper internal constructor(context: ReactApplicationConte
             promise.resolve(0)
         }
         else {
-            promise.reject(ReactNoCrashSoftException("Not found native instance"))
+            promise.reject(Exception("Not found native instance"))
         }
     }
 
@@ -264,7 +264,7 @@ class PageModeBuilderWrapper internal constructor(context: ReactApplicationConte
             promise.resolve(0)
         }
         else {
-            promise.reject(ReactNoCrashSoftException("Not found native instance"))
+            promise.reject(Exception("Not found native instance"))
         }
     }
 
@@ -279,7 +279,7 @@ class PageModeBuilderWrapper internal constructor(context: ReactApplicationConte
             promise.resolve(0)
         }
         else {
-            promise.reject(ReactNoCrashSoftException("Not found native instance"))
+            promise.reject(Exception("Not found native instance"))
         }
     }
 
@@ -300,7 +300,7 @@ class PageModeBuilderWrapper internal constructor(context: ReactApplicationConte
             }
         }
         else {
-            promise.reject(ReactNoCrashSoftException("Not found native instance"))
+            promise.reject(Exception("Not found native instance"))
         }
     }
 
@@ -314,7 +314,7 @@ class PageModeBuilderWrapper internal constructor(context: ReactApplicationConte
             promise.resolve(true)
         }
         else {
-            promise.reject(ReactNoCrashSoftException("Not found native instance"))
+            promise.reject(Exception("Not found native instance"))
         }
     }
 }

@@ -33,7 +33,7 @@ class DrawerBuilderWrapper internal constructor(context: ReactApplicationContext
             promise.resolve(0)
         }
         else {
-            promise.reject(ReactNoCrashSoftException("Not found native instance"))
+            promise.reject(Exception("Not found native instance"))
         }
     }
 }

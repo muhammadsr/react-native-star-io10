@@ -33,7 +33,7 @@ class MelodySpeakerBuilderWrapper internal constructor(context: ReactApplication
             promise.resolve(0)
         }
         else {
-            promise.reject(ReactNoCrashSoftException("Not found native instance"))
+            promise.reject(Exception("Not found native instance"))
         }
     }
 
@@ -48,7 +48,7 @@ class MelodySpeakerBuilderWrapper internal constructor(context: ReactApplication
             promise.resolve(0)
         }
         else {
-            promise.reject(ReactNoCrashSoftException("Not found native instance"))
+            promise.reject(Exception("Not found native instance"))
         }
     }
 }

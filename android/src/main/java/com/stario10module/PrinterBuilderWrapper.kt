@@ -34,7 +34,7 @@ class PrinterBuilderWrapper internal constructor(context: ReactApplicationContex
             promise.resolve(0)
         }
         else {
-            promise.reject(ReactNoCrashSoftException("Not found native instance"))
+            promise.reject(Exception("Not found native instance"))
         }
     }
 
@@ -48,7 +48,7 @@ class PrinterBuilderWrapper internal constructor(context: ReactApplicationContex
             promise.resolve(true)
         }
         else {
-            promise.reject(ReactNoCrashSoftException("Not found native instance"))
+            promise.reject(Exception("Not found native instance"))
         }
     }
 
@@ -62,7 +62,7 @@ class PrinterBuilderWrapper internal constructor(context: ReactApplicationContex
             promise.resolve(0)
         }
         else {
-            promise.reject(ReactNoCrashSoftException("Not found native instance"))
+            promise.reject(Exception("Not found native instance"))
         }
     }
 
@@ -75,7 +75,7 @@ class PrinterBuilderWrapper internal constructor(context: ReactApplicationContex
             promise.resolve(0)
         }
         else {
-            promise.reject(ReactNoCrashSoftException("Not found native instance"))
+            promise.reject(Exception("Not found native instance"))
         }
     }
 
@@ -88,7 +88,7 @@ class PrinterBuilderWrapper internal constructor(context: ReactApplicationContex
             promise.resolve(0)
         }
         else {
-            promise.reject(ReactNoCrashSoftException("Not found native instance"))
+            promise.reject(Exception("Not found native instance"))
         }
     }
 
@@ -101,7 +101,7 @@ class PrinterBuilderWrapper internal constructor(context: ReactApplicationContex
             promise.resolve(0)
         }
         else {
-            promise.reject(ReactNoCrashSoftException("Not found native instance"))
+            promise.reject(Exception("Not found native instance"))
         }
     }
 
@@ -114,7 +114,7 @@ class PrinterBuilderWrapper internal constructor(context: ReactApplicationContex
             promise.resolve(0)
         }
         else {
-            promise.reject(ReactNoCrashSoftException("Not found native instance"))
+            promise.reject(Exception("Not found native instance"))
         }
     }
 
@@ -127,7 +127,7 @@ class PrinterBuilderWrapper internal constructor(context: ReactApplicationContex
             promise.resolve(0)
         }
         else {
-            promise.reject(ReactNoCrashSoftException("Not found native instance"))
+            promise.reject(Exception("Not found native instance"))
         }
     }
 
@@ -140,7 +140,7 @@ class PrinterBuilderWrapper internal constructor(context: ReactApplicationContex
             promise.resolve(0)
         }
         else {
-            promise.reject(ReactNoCrashSoftException("Not found native instance"))
+            promise.reject(Exception("Not found native instance"))
         }
     }
 
@@ -153,7 +153,7 @@ class PrinterBuilderWrapper internal constructor(context: ReactApplicationContex
             promise.resolve(0)
         }
         else {
-            promise.reject(ReactNoCrashSoftException("Not found native instance"))
+            promise.reject(Exception("Not found native instance"))
         }
     }
 
@@ -166,7 +166,7 @@ class PrinterBuilderWrapper internal constructor(context: ReactApplicationContex
             promise.resolve(0)
         }
         else {
-            promise.reject(ReactNoCrashSoftException("Not found native instance"))
+            promise.reject(Exception("Not found native instance"))
         }
     }
 
@@ -179,7 +179,7 @@ class PrinterBuilderWrapper internal constructor(context: ReactApplicationContex
             promise.resolve(0)
         }
         else {
-            promise.reject(ReactNoCrashSoftException("Not found native instance"))
+            promise.reject(Exception("Not found native instance"))
         }
     }
 
@@ -192,7 +192,7 @@ class PrinterBuilderWrapper internal constructor(context: ReactApplicationContex
             promise.resolve(0)
         }
         else {
-            promise.reject(ReactNoCrashSoftException("Not found native instance"))
+            promise.reject(Exception("Not found native instance"))
         }
     }
 
@@ -205,7 +205,7 @@ class PrinterBuilderWrapper internal constructor(context: ReactApplicationContex
             promise.resolve(0)
         }
         else {
-            promise.reject(ReactNoCrashSoftException("Not found native instance"))
+            promise.reject(Exception("Not found native instance"))
         }
     }
 
@@ -224,7 +224,7 @@ class PrinterBuilderWrapper internal constructor(context: ReactApplicationContex
             promise.resolve(0)
         }
         else {
-            promise.reject(ReactNoCrashSoftException("Not found native instance"))
+            promise.reject(Exception("Not found native instance"))
         }
     }
 
@@ -237,7 +237,7 @@ class PrinterBuilderWrapper internal constructor(context: ReactApplicationContex
             promise.resolve(0)
         }
         else {
-            promise.reject(ReactNoCrashSoftException("Not found native instance"))
+            promise.reject(Exception("Not found native instance"))
         }
     }
 
@@ -250,7 +250,7 @@ class PrinterBuilderWrapper internal constructor(context: ReactApplicationContex
             promise.resolve(0)
         }
         else {
-            promise.reject(ReactNoCrashSoftException("Not found native instance"))
+            promise.reject(Exception("Not found native instance"))
         }
     }
 
@@ -263,7 +263,7 @@ class PrinterBuilderWrapper internal constructor(context: ReactApplicationContex
             promise.resolve(0)
         }
         else {
-            promise.reject(ReactNoCrashSoftException("Not found native instance"))
+            promise.reject(Exception("Not found native instance"))
         }
     }
 
@@ -276,7 +276,7 @@ class PrinterBuilderWrapper internal constructor(context: ReactApplicationContex
             promise.resolve(0)
         }
         else {
-            promise.reject(ReactNoCrashSoftException("Not found native instance"))
+            promise.reject(Exception("Not found native instance"))
         }
     }
 
@@ -289,7 +289,7 @@ class PrinterBuilderWrapper internal constructor(context: ReactApplicationContex
             promise.resolve(0)
         }
         else {
-            promise.reject(ReactNoCrashSoftException("Not found native instance"))
+            promise.reject(Exception("Not found native instance"))
         }
     }
 
@@ -304,7 +304,7 @@ class PrinterBuilderWrapper internal constructor(context: ReactApplicationContex
             promise.resolve(0)
         }
         else {
-            promise.reject(ReactNoCrashSoftException("Not found native instance"))
+            promise.reject(Exception("Not found native instance"))
         }
     }
 
@@ -319,7 +319,7 @@ class PrinterBuilderWrapper internal constructor(context: ReactApplicationContex
             promise.resolve(0)
         }
         else {
-            promise.reject(ReactNoCrashSoftException("Not found native instance"))
+            promise.reject(Exception("Not found native instance"))
         }
     }
 
@@ -334,7 +334,7 @@ class PrinterBuilderWrapper internal constructor(context: ReactApplicationContex
             promise.resolve(0)
         }
         else {
-            promise.reject(ReactNoCrashSoftException("Not found native instance"))
+            promise.reject(Exception("Not found native instance"))
         }
     }
 
@@ -355,7 +355,7 @@ class PrinterBuilderWrapper internal constructor(context: ReactApplicationContex
             }
         }
         else {
-            promise.reject(ReactNoCrashSoftException("Not found native instance"))
+            promise.reject(Exception("Not found native instance"))
         }
     }
 
@@ -369,7 +369,7 @@ class PrinterBuilderWrapper internal constructor(context: ReactApplicationContex
             promise.resolve(true)
         }
         else {
-            promise.reject(ReactNoCrashSoftException("Not found native instance"))
+            promise.reject(Exception("Not found native instance"))
         }
     }
 }

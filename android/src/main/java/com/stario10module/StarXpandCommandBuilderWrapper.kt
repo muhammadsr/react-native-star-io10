@@ -35,7 +35,7 @@ class StarXpandCommandBuilderWrapper internal constructor(context: ReactApplicat
             promise.resolve(true)
         }
         else {
-            promise.reject(ReactNoCrashSoftException("Not found native instance"))
+            promise.reject(Exception("Not found native instance"))
         }
     }
 
@@ -49,7 +49,7 @@ class StarXpandCommandBuilderWrapper internal constructor(context: ReactApplicat
             promise.resolve(true)
         }
         else {
-            promise.reject(ReactNoCrashSoftException("Not found native instance"))
+            promise.reject(Exception("Not found native instance"))
         }
     }
 
@@ -61,7 +61,7 @@ class StarXpandCommandBuilderWrapper internal constructor(context: ReactApplicat
             promise.resolve(builder.getCommand())
         }
         else {
-            promise.reject(ReactNoCrashSoftException("Not found native instance"))
+            promise.reject(Exception("Not found native instance"))
         }
     }
 

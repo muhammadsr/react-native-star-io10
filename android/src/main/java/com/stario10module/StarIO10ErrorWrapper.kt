@@ -23,7 +23,7 @@ class StarIO10ErrorWrapper internal constructor(context: ReactApplicationContext
             is StarIO10UnknownException -> "Unknown"
             is StarIO10UnprintableException -> "Unprintable"
             else -> {
-                promise.reject(ReactNoCrashSoftException("Exception is not defined"))
+                promise.reject(Exception("Exception is not defined"))
                 return
             }
         }
@@ -39,7 +39,7 @@ class StarIO10ErrorWrapper internal constructor(context: ReactApplicationContext
             promise.resolve(exception.message)
         }
         else {
-          promise.reject(ReactNoCrashSoftException("Not found $identifier identifier"))
+          promise.reject(Exception("Not found $identifier identifier"))
         }
     }
 
@@ -51,7 +51,7 @@ class StarIO10ErrorWrapper internal constructor(context: ReactApplicationContext
             promise.resolve(exception.errorCode.value)
         }
         else {
-            promise.reject(ReactNoCrashSoftException("Not found $identifier identifier"))
+            promise.reject(Exception("Not found $identifier identifier"))
         }
     }
 
@@ -66,7 +66,7 @@ class StarIO10ErrorWrapper internal constructor(context: ReactApplicationContext
         }
 
         if(status == null) {
-            promise.reject(ReactNoCrashSoftException("status is null."))
+            promise.reject(Exception("status is null."))
             return
         }
 

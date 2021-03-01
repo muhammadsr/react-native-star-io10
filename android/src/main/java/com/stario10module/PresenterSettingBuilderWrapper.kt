@@ -34,7 +34,7 @@ class PresenterSettingBuilderWrapper internal constructor(context: ReactApplicat
             promise.resolve(0)
         }
         else {
-            promise.reject(ReactNoCrashSoftException("Not found native instance"))
+            promise.reject(Exception("Not found native instance"))
         }
     }
 
@@ -48,7 +48,7 @@ class PresenterSettingBuilderWrapper internal constructor(context: ReactApplicat
             promise.resolve(0)
         }
         else {
-            promise.reject(ReactNoCrashSoftException("Not found native instance"))
+            promise.reject(Exception("Not found native instance"))
         }
     }
 }
