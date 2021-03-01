@@ -31,10 +31,6 @@ class StarIO10Package : ReactPackage {
         return modules
     }
 
-    override fun createJSModules(): MutableList<Class<out JavaScriptModule>> {
-        return arrayListOf()
-    }
-
     override fun createViewManagers(reactContext: ReactApplicationContext): List<ViewManager<*, *>> {
         return emptyList<ViewManager<*, *>>()
     }
